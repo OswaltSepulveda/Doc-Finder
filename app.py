@@ -81,7 +81,7 @@ st.sidebar.metric("🎯 Precisión IA", f"{stats['confianza_promedio']}%")
 st.sidebar.metric("💾 Espacio Usado", f"{stats['tamaño_total_mb']} MB")
 
 st.sidebar.markdown("---")
-st.sidebar.caption("🔬 Proyecto Hackathon INTEC 2025")
+st.sidebar.caption("🔬 Proyecto Hackathon SIC 2025")
 st.sidebar.caption("Oswalt Sepúlveda, Héctor Adrian Romero,")
 st.sidebar.caption("Carlos Capellán, Julio Rosario,")
 
@@ -91,8 +91,8 @@ st.sidebar.caption("Carlos Capellán, Julio Rosario,")
 # ====================================
 
 if pagina == "🏠 Dashboard":
-    st.markdown('<h1 class="main-header">🤖 Doc Finder - Sistema Inteligente de Gestión Documental</h1>', unsafe_allow_html=True)
-    st.markdown("### Gestión documental potenciada por Inteligencia Artificial")
+    st.markdown('<h1 class="main-header">🤖 Doc Finder - Sistema Inteligente de Gestión de Documentos</h1>', unsafe_allow_html=True)
+    st.markdown("### Gestión de documentos potenciada por Inteligencia Artificial")
     
     # Métricas principales
     col1, col2, col3, col4 = st.columns(4)
